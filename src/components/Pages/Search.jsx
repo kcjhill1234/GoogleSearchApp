@@ -1,13 +1,13 @@
 import React from "react";
-import { Segment } from "semantic-ui-react";
-import Header from "../Header/Google.Header";
-import BookSearch from "../Header/Book.Search";
+import { Segment, Header } from "semantic-ui-react";
+import BookSearch from "../Header/Book-Search";
 export default function Search() {
   return (
     <div>
       {" "}
       <Segment className="search">
-        <Header />
+        <Header as="h1">React Google Books Search</Header>
+        <Header as="h3">Search for and Save Books of Interest</Header>
       </Segment>
       <Segment>
         <BookSearch />

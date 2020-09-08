@@ -8,7 +8,6 @@ export default function GoogleMenu() {
       <Menu.Item header className="pageMenu">
         Google Book Search
       </Menu.Item>
-      <Menu.Item as={NavLink} to="/" name="home" exact />
       <Menu.Item as={NavLink} to="/search" name="search" exact />
       <Menu.Item as={NavLink} to="/saved" name="save" exact />
     </Menu>

@@ -1,9 +1,8 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/Pages/Home";
 import Saved from "./components/Pages/Saved";
 import Search from "./components/Pages/Search";
-import GoogleMenu from './components/Header/Google.Menu';
+import GoogleMenu from './components/Page-Layout/Google-Menu';
 
 function App() {
   return (
@@ -16,9 +15,6 @@ function App() {
           </Route>
           <Route exact path="/search">
             <Search />
-          </Route>
-          <Route exact path="/">
-            <Home />
           </Route>
         </Switch>
       </div>

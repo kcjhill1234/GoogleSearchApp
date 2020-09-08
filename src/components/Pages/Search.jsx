@@ -1,6 +1,6 @@
 import React from "react";
 import { Segment, Header } from "semantic-ui-react";
-import BookSearch from "../Header/Book-Search";
+import BookSearch from "../Page-Layout/Book-Search";
 export default function Search() {
   return (
     <div>

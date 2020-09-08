@@ -16,6 +16,7 @@ export default function Search() {
       </Segment>
       <Segment>
         <Results/>
+        <Results/>
       </Segment>
     </div>
   );

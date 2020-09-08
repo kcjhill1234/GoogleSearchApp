@@ -8,9 +8,8 @@ export default function Saved() {
     <Segment className="saved">
       <Header as="h1">React Google Books Search</Header>
       <Header as="h3">Search for and Save Books of Interest</Header>
-      <Segment>
         <Results/>
-      </Segment>
+        <Results/>
 
     </Segment>
   );

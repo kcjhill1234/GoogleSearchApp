@@ -6,9 +6,7 @@ export default function Results() {
   return (
     <Segment className>
       <Header as="h4">Results</Header>
-      <Segment>
         <ResultsTable />
-      </Segment>
     </Segment>
   );
 }

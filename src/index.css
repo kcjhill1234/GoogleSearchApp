@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.segment{
+  max-width: 950px;
+  justify-content: center;
+
+}
+.segment.home, .segment.saved, .segment.search {
+  width: 950px;
+  justify-content: center;
+
+}
+.page {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+
+}
+.h1 {
+  justify-content: center;
+}

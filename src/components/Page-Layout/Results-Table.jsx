@@ -8,10 +8,10 @@ export default function ResultsTable() {
         <Card.Content extra>
           <div className="two buttons">
             <Card.Header children>Book info</Card.Header>
-            <Button floated="right" basic color="green">
+            <Button  className="viewButton" onClick size="tiny" floated="right" basic color="green">
               View
             </Button>
-            <Button floated="right" basic color="red">
+            <Button className="saveButton" onClick size="tiny" floated="right" basic color="red">
               Save
             </Button>
           </div>

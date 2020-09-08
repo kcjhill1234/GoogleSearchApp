@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Saved from "./components/Pages/Saved";
 import Search from "./components/Pages/Search";
 import GoogleMenu from './components/Page-Layout/Google-Menu';
+import {Divider} from "semantic-ui-react"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Search />
           </Route>
         </Switch>
+        <Divider/>
       </div>
     </div>
   )

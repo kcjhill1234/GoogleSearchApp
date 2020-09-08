@@ -1,6 +1,8 @@
 import React from "react";
 import { Segment, Header } from "semantic-ui-react";
 import BookSearch from "../Page-Layout/Book-Search";
+import Results from "../Page-Layout/Results"
+
 export default function Search() {
   return (
     <div>
@@ -11,6 +13,9 @@ export default function Search() {
       </Segment>
       <Segment>
         <BookSearch />
+      </Segment>
+      <Segment>
+        <Results/>
       </Segment>
     </div>
   );

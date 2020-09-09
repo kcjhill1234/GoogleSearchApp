@@ -1,12 +1,13 @@
 import React from "react";
-import { Segment, Header } from "semantic-ui-react";
+import { Header } from "semantic-ui-react";
 import ResultsTable from "./Results-Table";
 
 export default function Results() {
   return (
-    <Segment className>
+    <div>
+      {" "}
       <Header as="h4">Results</Header>
-        <ResultsTable />
-    </Segment>
+      <ResultsTable />
+    </div>
   );
 }

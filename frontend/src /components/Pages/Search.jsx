@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Segment, Container } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 import BookSearch from "../Page-Layout/Book-Search";
 import ResultList from "../Page-Layout/Result-List";
 import Result from "../Page-Layout/Result";
